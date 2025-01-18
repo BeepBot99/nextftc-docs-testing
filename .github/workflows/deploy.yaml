@@ -32,6 +32,8 @@ jobs:
         run: npm install
       - name: Install VitePress
         run: npm install -g vitepress
+      - name: Install VitePress Tabs
+        run: npm install -g vitepress-plugin-tabs
       - name: Fix VitePress permissions
         run: chmod +x $(npm root -g)/vitepress/bin/vitepress.js
       - name: Build
