@@ -1,0 +1,12 @@
+{
+    "name": "testingvitepress",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "author": "",
+    "license": "ISC"
+}
