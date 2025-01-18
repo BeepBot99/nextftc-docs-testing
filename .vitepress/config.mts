@@ -3,6 +3,7 @@ import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    cleanUrls: true,
     ignoreDeadLinks: true,
     base: "/nextftc-docs-testing/",
     markdown: {
@@ -17,7 +18,7 @@ export default defineConfig({
         nav: [
             {text: "Home", link: "/"},
             {text: "Installation", link: "/installation"},
-            {text: "Reference", link: "http://localhost:5173/reference/index.html"}
+            {text: "Reference", link: "https://beepbot99.github.io/nextftc-docs-testing/reference/"}
         ],
 
         sidebar: [

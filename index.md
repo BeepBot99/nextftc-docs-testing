@@ -15,7 +15,7 @@ hero:
           link: /installation
         - theme: alt
           text: Reference
-          link: http://localhost:5173/reference/index.html
+          link: https://beepbot99.github.io/nextftc-docs-testing/reference/
 
 features:
     - title: Easy to use
